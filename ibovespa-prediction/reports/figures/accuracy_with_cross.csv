@@ -1,0 +1,8 @@
+Model,MASE,RMSSE,MAE,RMSE,MAPE,SMAPE,R2,TT (Sec)
+Naive Forecaster,2.71,2.45,2366.55,2741.28,0.02,0.02,-1.88,0.01
+Theta Forecaster,3.16,2.88,2745.56,3192.87,0.02,0.02,-3.15,0.03
+Auto ARIMA,3.48,3.13,3072.23,3540.34,0.03,0.03,-4.92,0.92
+ETS,3.45,3.11,3007.54,3428.72,0.03,0.03,-3.89,0.02
+Bayesian Ridge w/ Cond. Deseasonalize & Detrending,3.89,3.5,3408.55,3917.5,0.03,0.03,-5.94,0.04
+Decision Tree w/ Cond. Deseasonalize & Detrending,3.81,3.42,3320.18,3819.54,0.03,0.03,-4.95,0.04
+Prophet,5.09,4.54,4555.66,5144.3,0.04,0.04,-11.53,0.13
